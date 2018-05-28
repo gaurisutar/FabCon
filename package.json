@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gaurisutar/ShreeFabCon/issues"
   },
-  "homepage": "https://github.com/gaurisutar/ShreeFabCon#readme"
+  "homepage": "https://github.com/gaurisutar/ShreeFabCon#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
