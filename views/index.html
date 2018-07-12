@@ -1,97 +1,61 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <head>
 <style>
-#logo {
+img {
+	width:300px;
+    height:200px;
+    margin: 20px;
+	}
+.info {
 	display: inline-block;
-    border: 0px solid black;
+	border: 1px solid black;
+    width: 1200px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: white;
+}
+.callus {
+	display: inline-block;
+	border: 1px solid black;
     width: 200px;
-    height: 150px;
-	margin-top: 1px;
-    margin-bottom: 1px;
-    margin-right: 50px;
-    margin-left: 400px;
-    padding: 1px;
-    background: url(logo.jpeg);
-    background-repeat: no-repeat;
-    background-size: 200px 150px;
+    height: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 150px;
+   	font-size: 15px;
+   	color: #093eb6;
+
 }
-#info {
+.emailus {
 	display: inline-block;
 	border: 1px solid black;
-    width: 700px;
-    height: 150px;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 15px;
+   	color: #093eb6;
+}
+.Address {
+	display: inline-block;
+	border: 1px solid black;
+    width: 240px;
+    height: 50px;
     margin-top: 20px;
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    background-color: white;
-}
-#callus {
-	display: inline-block;
-	border: 1px solid black;
-    width: 700px;
-    height: 150px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    background-color: white;
-}
-#emailus {
-	display: inline-block;
-	border: 1px solid black;
-    width: 700px;
-    height: 150px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    background-color: white;
-}
-#Address {
-	display: inline-block;
-	border: 1px solid black;
-    width: 700px;
-    height: 150px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    background-color: white;
-}
-#phoneno {
-	display: inline-block;
-	border: 1px solid black;
-    width: 700px;
-    height: 150px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    background-color: white;
-}
-#emailid {
-	display: inline-block;
-	border: 1px solid black;
-    width: 700px;
-    height: 150px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    background-color: white;
-}
-#address1 {
-	display: inline-block;
-	border: 1px solid black;
-    width: 700px;
-    height: 150px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    background-color: white;
+    font-size: 15px;
+   	color: #093eb6;
 }
 ul {
 	display: block;
@@ -99,7 +63,7 @@ ul {
     margin-top: 20px;
     margin-bottom: 0px;
     margin-right: 0px;
-    margin-left: 000px;
+    margin-left: 0px;
     padding: 0px;
     overflow: hidden;
     background-color: #f3f3f3;
@@ -119,12 +83,13 @@ li a {
     display: block;
     color: #666;
     text-align: center;
-		padding-top: 20px;
+	padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 25px;
     padding-left: 25px;
-		color: black;
-		text-decoration: none;
+	color: black;
+	text-decoration: none;
+    margin-left: 0px;
 
 }
 
@@ -137,418 +102,78 @@ a.active {
     background-color: blue;
 }
 
-#example {
-    border: 1px solid black;
-    width: 900px;
-    height: 500px;
-    margin: 20px;
-    padding: 40px;
-    background: url(civil-image-1.jpg);
-    background-repeat: no-repeat;
-    background-size: 1100px 1100px;
-}
-
-#example1 {
+.heading {
 	display: inline-block;
-    border: 0px solid black;
-    width: 200px;
+	border: 1px solid black;
+    width: 550px;
     height: 150px;
-    margin: 1px;
-    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 400px;
+    margin-left: 400px;
+    padding: 0px;
+    background-color: white;
+}
+.main_title {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 40px;
 
 }
-#roundimage1 {
-    border-radius: 50px;
-    margin: 2px;
-    padding: 2px;
-    width: 30px;
-    height: 30px;
-    background: url(experience.png);
-    background-repeat: no-repeat;
-    background-size: 50px 50px;
-}
-#example1-1 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 100px;
-    height: 20px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-right: 90px;
-    margin-left: 0px;
-    padding: 5px;
+.mb_20 {
+    margin-bottom: 20px;
 
 }
-#example1-2 {
+.feature {
 	display: inline-block;
-    border: 0px solid black;
-    width: 150px;
-    height: 50px;
-    margin-top: 5px;
-    margin-bottom: 1px;
-    margin-right: 40px;
-    margin-left: 0px;
-    padding: 5px;
-
-}
-#example2 {
-	display: inline-block;
-    border: 0px solid black;
+	border: 1px solid black;
     width: 200px;
-    height: 150px;
-    margin: 1px;
-    padding: 5px;
-
-}
-#roundimage2 {
-    border-radius: 50px;
-    margin: 2px;
-    padding: 2px;
-    width: 30px;
-    height: 30px;
-    background: url(professional.jpg);
-    background-repeat: no-repeat;
-    background-size: 50px 50px;
-}
-#example2-1 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 100px;
-    height: 20px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-right: 90px;
-    margin-left: 0px;
-    padding: 5px;
-
-}
-#example2-2 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 150px;
     height: 50px;
-    margin-top: 5px;
-    margin-bottom: 1px;
-    margin-right: 40px;
-    margin-left: 0px;
-    padding: 5px;
-
-}
-#example3 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 200px;
-    height: 150px;
-    margin: 1px;
-    padding: 5px;
-
-}
-#roundimage3 {
-    border-radius: 50px;
-    margin: 2px;
-    padding: 2px;
-    width: 30px;
-    height: 30px;
-    background: url(safety1.jpg);
-    background-repeat: no-repeat;
-    background-size: 40px 40px;
-}
-#example3-1 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 100px;
-    height: 20px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-right: 90px;
-    margin-left: 0px;
-    padding: 5px;
-
-}
-#example3-2 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 150px;
-    height: 50px;
-    margin-top: 5px;
-    margin-bottom: 1px;
-    margin-right: 40px;
-    margin-left: 0px;
-    padding: 5px;
-
-}
-#example4 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 200px;
-    height: 150px;
-    margin: 1px;
-    padding: 5px;
-
-}
-#roundimage4 {
-    border-radius: 50px;
-    margin: 2px;
-    padding: 2px;
-    width: 30px;
-    height: 30px;
-    background: url(Sustainability.jpg);
-    background-repeat: no-repeat;
-    background-size: 40px 40px;
-}
-#example4-1 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 100px;
-    height: 20px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-right: 90px;
-    margin-left: 0px;
-    padding: 5px;
-
-}
-#example4-2 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 150px;
-    height: 50px;
-    margin-top: 5px;
-    margin-bottom: 1px;
-    margin-right: 40px;
-    margin-left: 0px;
-    padding: 5px;
-
-}
-#example5 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 200px;
-    height: 150px;
-    margin: 1px;
-    padding: 5px;
-
-}
-#roundimage5 {
-    border-radius: 50px;
-    margin: 2px;
-    padding: 2px;
-    width: 30px;
-    height: 30px;
-    background: url(integrity1.jpg);
-    background-repeat: no-repeat;
-    background-size: 40px 40px;
-}
-#example5-1 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 100px;
-    height: 20px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-right: 90px;
-    margin-left: 0px;
-    padding: 5px;
-
-}
-#example5-2 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 150px;
-    height: 50px;
-    margin-top: 5px;
-    margin-bottom: 1px;
-    margin-right: 40px;
-    margin-left: 0px;
-    padding: 5px;
-
-}
-#example6 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 200px;
-    height: 150px;
-    margin: 1px;
-    padding: 5px;
-
-}
-#roundimage6 {
-    border-radius: 50px;
-    margin: 2px;
-    padding: 2px;
-    width: 30px;
-    height: 30px;
-    background: url(reliable.jpg);
-    background-repeat: no-repeat;
-    background-size: 40px 40px;
-}
-#example6-1 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 100px;
-    height: 20px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-right: 90px;
-    margin-left: 0px;
-    padding: 5px;
-
-}
-#example6-2 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 150px;
-    height: 50px;
-    margin-top: 5px;
-    margin-bottom: 1px;
-    margin-right: 40px;
-    margin-left: 0px;
-    padding: 5px;
-
-}
-#example7 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 200px;
-    height: 150px;
-    margin: 1px;
-    padding: 5px;
-
-}
-#roundimage7 {
-    border-radius: 50px;
-    margin: 2px;
-    padding: 2px;
-    width: 30px;
-    height: 30px;
-    background: url(managment.jpg);
-    background-repeat: no-repeat;
-    background-size: 40px 40px;
-}
-#example7-1 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 100px;
-    height: 20px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-right: 90px;
-    margin-left: 0px;
-    padding: 5px;
-
-}
-#example7-2 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 150px;
-    height: 50px;
-    margin-top: 5px;
-    margin-bottom: 1px;
-    margin-right: 40px;
-    margin-left: 0px;
-    padding: 5px;
-
-}
-#example8 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 200px;
-    height: 150px;
-    margin: 1px;
-    padding: 5px;
-}
-#roundimage8 {
-    border-radius: 50px;
-    margin: 2px;
-    padding: 2px;
-    width: 30px;
-    height: 30px;
-    background: url(innovation.png);
-    background-repeat: no-repeat;
-    background-size: 40px 40px;
-}
-#example8-1 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 100px;
-    height: 20px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-right: 90px;
-    margin-left: 0px;
-    padding: 5px;
-
-}
-#example8-2 {
-	display: inline-block;
-    border: 0px solid black;
-    width: 150px;
-    height: 50px;
-    margin-top: 5px;
-    margin-bottom: 1px;
-    margin-right: 40px;
-    margin-left: 0px;
-    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 150px;
+   	font-size: 15px;
+   	color: #093eb6;
 
 }
 </style>
 </head>
 <body>
-	<div id="logo">
+<header>
+	<div class="info">
+	<a href="index.html">
+	<img src="logo.jpeg" alt="logo"></a>
+	<div class="callus">
+	<h3>CALL US</h3>
+	<p>9890800992 /7972270697</p></div>
+	<div class="emailus">
+	<h3>EMAIL US</h3>
+    <p>ShreeFabCon2018@gmail.com</p></div>
+  	<div class="Address">
+  	<h3>ADDRESS</h3>
+  	<p>Shree Group, Shirur-Satara Road, <br>Near Kedgaon Toll 		Plaza,<br> Tal- Daund, Dist- Pune, Pin-412203</div>
     </div>
-    <div id="info"></div>
-	<ul>
-  	<li><a href="#home">Home</a></li>
+</header>
+<ul>
+  	<li><a href="home.html">Home</a></li>
     <li><a href="#aboutus">About Us</a></li>
     <li><a href="#gallery">Gallery</a></li>
     <li><a href="#teaminfo">Team Info</a></li>
     <li><a href="#Upcoming Projects">Upcoming Projects</a></li>
     <li><a href="#Contact Us">Contact Us</a></li>
+</ul>
+<div class="w3-container">
+<div class="w3-display-container w3-text-white">
+<div class="w3-display-middle w3-container"><h2>Image Text</h2>
+  <p>Position content inside an image with the w3-display-<em>classes</em> - Note that we have added the w3-container class to get more padding:</p></div>
+<img src="homeimage.jpg" alt="sliding image" style="width:100%">
 
-  </ul>
-
-
-<div id="example">
-  	<div id="example1">
-  		<div id="roundimage1"></div>
-  		<div id="example1-1" style="color:green;">Experince</div>
-  		<div id="example1-2" style="text-align:left;">“Don't cry because it's over, smile because it happened.”</div>
-  	</div>
-  	<div id="example2">
-  		<div id="roundimage2"></div>
-  		<div id="example2-1" style="color:green;">Professional</div>
-  		<div id="example2-2">“Don't cry because it's over, smile because it happened.”</div>
-  	</div>
-	<div id="example3">
-		<div id="roundimage3"></div>
-		<div id="example3-1" style="color:green;">Safety</div>
-		<div id="example3-2">“Don't cry because it's over, smile because it happened.”</div>
-    </div>
-	<div id="example4">
-		<div id="roundimage4"></div>
-        <div id="example4-1" style="color:green;">Sustainbality</div>
-		<div id="example4-2">“Don't cry because it's over, smile because it happened.”</div>
-    </div>
-	<div id="example5">
-		<div id="roundimage5"></div>
-        <div id="example5-1" style="color:green;">Integrity</div>
-		<div id="example5-2">“Don't cry because it's over, smile because it happened.”</div>
-    </div>
-	<div id="example6">
-		<div id="roundimage6"></div>
-        <div id="example6-1" style="color:green;">Reliable</div>
-		<div id="example6-2">“Don't cry because it's over, smile because it happened.”</div>
-    </div>
-	<div id="example7">
-		<div id="roundimage7"></div>
-        <div id="example7-1" style="color:green;">Managment</div>
-		<div id="example7-2">“Don't cry because it's over, smile because it happened.”</div>
-    </div>
-	<div id="example8">
-		<div id="roundimage8"></div>
-        <div id="example8-1" style="color:green;">Innovation</div>
-		<div id="example8-2">“Don't cry because it's over, smile because it happened.”</div>
-    </div>
 </div>
+</div>
+<div class="heading">
+	<h1 class="main_title mb_20">Introducing our feature</h1>
+	<p>We understand the importance of innovation and professionalism and work with the<br> best people to achieve this.</p></div>
+
 </body>
 </html>
