@@ -1,40 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<link rel="gallery" href="/stylesheets/gallery.css">
+</head>
 <body>
-
-<h2 class="w3-center">Manual Slideshow</h2>
-
-<div class="w3-content w3-display-container">
-  <img class="mySlides" src="slidingimag1.jpg" style="width:100%">
-  <img class="mySlides" src="slidingimag2.jpg" style="width:100%">
-  <img class="mySlides" src="slidingimag3.jpg" style="width:100%">
-  <img class="mySlides" src="slidingimag4.jpg" style="width:100%">
-
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
-
+    <div class="slider-holder">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-holder">
+            <img src="slidingimag1.jpg" class="slider-image" />
+            <img src="slidingimag2.jpg" class="slider-image" />
+            <img src="slidingimag3.jpg" class="slider-image" />
+        </div>
+        <div class="button-holder">
+            <a href="#slider-image-1" class="slider-change"></a>
+            <a href="#slider-image-2" class="slider-change"></a>
+            <a href="#slider-image-3" class="slider-change"></a>
+        </div>
+    </div>
 </body>
 </html>
