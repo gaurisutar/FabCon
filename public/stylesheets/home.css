@@ -29,18 +29,22 @@
 }
 
 #logo {
-  height: 75px;
-  width: 250px;
+  height: 60px;
+  width: 200px;
   padding-left: 20px;
 }
 
 header .nav-link {
-  color: #d2caca;
+  color: black;
   font-size: 18px;
   padding: .5rem 2rem;
 }
 
+header .nav-link:hover {
+  background-color: #b8c0c7;
+}
+
 header .inner {
-  padding: 15px 100px;
+  padding: 5px 100px;
   font-family: 'Raleway', sans-serif;
 }
