@@ -1,5 +1,4 @@
 .section-1 {
-  background-image: url('/images/homeimage.jpg');
   background-size: cover;
   height: 700px;
 }
@@ -27,4 +26,21 @@
   line-height: 24px;
   font-family: roboto, sans-serif;
   font-size: 15px;
+}
+
+#logo {
+  height: 75px;
+  width: 250px;
+  padding-left: 20px;
+}
+
+header .nav-link {
+  color: #d2caca;
+  font-size: 18px;
+  padding: .5rem 2rem;
+}
+
+header .inner {
+  padding: 15px 100px;
+  font-family: 'Raleway', sans-serif;
 }
