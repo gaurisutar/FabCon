@@ -3,6 +3,10 @@
   height: 700px;
 }
 
+.section-1 .title {
+  margin-bottom: 0;
+}
+
 .section-1 .text {
   padding-top: 200px;
   width: 50%;
