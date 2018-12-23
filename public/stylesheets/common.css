@@ -1,0 +1,27 @@
+.title {
+    font-size: 4em;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+#logo {
+    height: 60px;
+    width: 200px;
+    padding-left: 20px;
+}
+
+header .nav-link {
+    color: white;
+    font-size: 18px;
+    padding: .5rem 2rem;
+}
+
+header .nav-link:hover {
+    background-color: #b8c0c7;
+}
+
+header .inner {
+    padding: 5px 100px;
+    font-family: 'Raleway', sans-serif;
+}
